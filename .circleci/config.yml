@@ -39,7 +39,7 @@ jobs:
 #            - python/install-packages:
 #          pkg-manager: pip
 
-      - run:
+       run:
           name: install dependencies
           command: |
                  python3 -m venv venv
